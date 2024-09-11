@@ -14,9 +14,7 @@ Este repositório contém um conjunto de exemplos e guias práticos para a cria�
 - Middleware personalizados para controle de requisições.
 - Implementação de **Testes de Unidade** e **Testes de Integração** para validar funcionalidades.
 - Otimização de performance com boas práticas para produção.
-## Arquitetura
 
-![Arquitetura-projeto](C:\Users\willi\OneDrive\Imagens\Capturas de tela\Arquitetura.png)
 ## Pré-requisitos
 
 Antes de rodar o projeto, certifique-se de ter instalado:
