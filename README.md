@@ -17,7 +17,7 @@ Este repositório contém um conjunto de exemplos e guias práticos para a cria�
 - Otimização de performance com boas práticas para produção.
 ## Arquitetura
 
-![Arquitetura-projeto](./images/Arquitetura.png)
+![Arquitetura-projeto](./minimal_api/images/Arquitetura.png)
 
 
 ## Pré-requisitos
