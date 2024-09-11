@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "oyzcy2L4Nk1+n3YsIaxxTBKyqcsK45ZQFxgkLjWu9jc=",
+  "Source": "minimal_api",
+  "BasePath": "_content/minimal_api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -1,4 +1,4 @@
-Aqui está um exemplo de um README para o repositório com informações mais detalhadas e sem repetir diretamente a descrição:
+
 
 ---
 
@@ -14,6 +14,11 @@ Este repositório contém um conjunto de exemplos e guias práticos para a cria�
 - Middleware personalizados para controle de requisições.
 - Implementação de **Testes de Unidade** e **Testes de Integração** para validar funcionalidades.
 - Otimização de performance com boas práticas para produção.
+
+## Arquitetura
+
+![Arquitetura-projeto](./images/Arquitetura.png)
+
 
 ## Pré-requisitos
 
