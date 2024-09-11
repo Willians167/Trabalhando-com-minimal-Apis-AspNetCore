@@ -13,7 +13,11 @@ Este repositório contém um conjunto de exemplos e guias práticos para a cria�
 - Autenticação e autorização usando **JWT (JSON Web Tokens)**.
 - Middleware personalizados para controle de requisições.
 - Implementação de **Testes de Unidade** e **Testes de Integração** para validar funcionalidades.
+
 - Otimização de performance com boas práticas para produção.
+## Arquitetura
+
+![Arquitetura-projeto](./images/Arquitetura.png)
 
 
 ## Pré-requisitos
