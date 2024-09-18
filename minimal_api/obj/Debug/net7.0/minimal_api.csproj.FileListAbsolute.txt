@@ -39,3 +39,8 @@ A:\Projetos\Trabalhando-com minimals\Trabalhando-com-minima-Apis-AspNetCorel\min
 A:\Projetos\Trabalhando-com minimals\Trabalhando-com-minima-Apis-AspNetCorel\minimal_api\bin\Debug\net7.0\System.CodeDom.dll
 A:\Projetos\Trabalhando-com minimals\Trabalhando-com-minima-Apis-AspNetCorel\minimal_api\obj\Debug\net7.0\minimal_api.csproj.AssemblyReference.cache
 A:\Projetos\Trabalhando-com minimals\Trabalhando-com-minima-Apis-AspNetCorel\minimal_api\obj\Debug\net7.0\minimal_.D5CBC7F5.Up2Date
+A:\Projetos\Trabalhando-com minimals\Trabalhando-com-minima-Apis-AspNetCorel\minimal_api\bin\Debug\net7.0\Microsoft.OpenApi.dll
+A:\Projetos\Trabalhando-com minimals\Trabalhando-com-minima-Apis-AspNetCorel\minimal_api\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+A:\Projetos\Trabalhando-com minimals\Trabalhando-com-minima-Apis-AspNetCorel\minimal_api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+A:\Projetos\Trabalhando-com minimals\Trabalhando-com-minima-Apis-AspNetCorel\minimal_api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+A:\Projetos\Trabalhando-com minimals\Trabalhando-com-minima-Apis-AspNetCorel\minimal_api\obj\Debug\net7.0\minimal_api.MvcApplicationPartsAssemblyInfo.cs
