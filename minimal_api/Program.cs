@@ -1,3 +1,4 @@
+#region Using
 using System.IO.Pipes;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -8,6 +9,7 @@ using MinimalApi.Dominio.Servicos;
 using MinimalApi.Domnio.ModelViews;
 using MinimalApi.DTOs;
 using MinimalApi.Infraestrutura.Db;
+#endregion
 
 #region Builder
 var builder = WebApplication.CreateBuilder(args);
@@ -53,6 +55,12 @@ app.MapPost("/veiculos",([FromBody]VeiculoDTO veiculoDTO, IVeiculoServico veicul
     };
     veiculoServico.Incluir(veiculo);
     return Results.Created($"/veiculo/{veiculo.Id}", veiculo);
+});
+
+app.MapGet("/veiculos",([FromQuery]int? pagina, IVeiculoServico veiculoServico) => {
+var veiculo = veiculoServico.Todos(pagina);
+    
+    return Results.Ok(veiculo);
 });
 #endregion
 
