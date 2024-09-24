@@ -42,7 +42,7 @@ app.MapPost("/administradores/login",([FromBody]LoginDTO loginDTO, IAdministrado
     else 
           return Results.Unauthorized();
          
-});
+}).WithTags("Administrador");
 #endregion
 
 #region Veiculos
@@ -55,13 +55,21 @@ app.MapPost("/veiculos",([FromBody]VeiculoDTO veiculoDTO, IVeiculoServico veicul
     };
     veiculoServico.Incluir(veiculo);
     return Results.Created($"/veiculo/{veiculo.Id}", veiculo);
-});
+}).WithTags("Veiculo");
 
 app.MapGet("/veiculos",([FromQuery]int? pagina, IVeiculoServico veiculoServico) => {
 var veiculo = veiculoServico.Todos(pagina);
     
     return Results.Ok(veiculo);
-});
+}).WithTags("Veiculo");
+
+app.MapGet("/veiculos/{id}",([FromRoute]int id, IVeiculoServico veiculoServico) => {
+var veiculo = veiculoServico.BuscaPorId(id);
+
+if(veiculo == null) return Results.NotFound();
+    
+    return Results.Ok(veiculo);
+}).WithTags("Veiculo");
 #endregion
 
 #region App
